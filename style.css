@@ -10,9 +10,11 @@
     height: 20rem;
     width: 20rem;
     background-color: greenyellow;
-    transition: background-color 5s ease-out 0.1s;
+    transition: background-color 5s ease-out 0.1s, height 5s ease-out 0.1s, width 5s ease-out 0.1s;
 }
 
 #transitioning:hover {
     background-color: whitesmoke;
+    height: 3rem;
+    width: 3rem;
 }
